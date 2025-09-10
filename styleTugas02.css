@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #DB7093; 
+  margin: 0;
+  padding: 40px;
+  color: antiquewhite;
+}
+
+.card {
+  background-color: #483D8B;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 900px; 
+  margin: auto;
+
+  display: flex;
+  gap: 5px;   
+  align-items: flex-start; 
+}
+
+.sidebar {
+  flex: 0 0 140px; 
+}
+
+.content {
+  flex: 1; 
+}
+
+.sidebar.kanan {
+  flex: 0 0 180px; 
+}
+
+h2, h3 {
+  margin-top: 0;       
+  margin-bottom: 10px; 
+  text-align: left;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
